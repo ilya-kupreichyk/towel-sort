@@ -2,7 +2,9 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
-   if (Array.isArray(matrix) === false) {
+ let result = [];
+
+    if (Array.isArray(matrix) === false) {
         return result;
     } else {
         for (let i = 0; i < matrix.length; i++) {
